@@ -36,7 +36,7 @@ public class RecyclerContactAdapter  extends RecyclerView.Adapter<RecyclerContac
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ViewHolder holder, int p osition) {
   holder.img.setImageResource(arrname.get(position).img);
   holder.name.setText(arrname.get(position).name);
   holder.number.setText(arrname.get(position).number);
