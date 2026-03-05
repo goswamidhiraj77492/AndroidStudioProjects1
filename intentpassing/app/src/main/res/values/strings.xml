@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">intentpassing</string>
+    <string name="Next">Next</string>
+    <string name="sechello"> hello welcome in second activity</string>
+</resources>

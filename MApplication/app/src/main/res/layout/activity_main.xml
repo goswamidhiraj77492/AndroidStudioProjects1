@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/back"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:backgroundTint="@color/logg"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="50dp"
+            >
+
+            <EditText
+                android:layout_width="250sp"
+                android:layout_height="60sp"
+                android:hint="@string/usn"
+                android:textSize="35sp"
+                android:inputType="text"
+                android:textAlignment="center"
+                />
+
+
+
+            <EditText
+                android:layout_width="250sp"
+                android:layout_height="60sp"
+                android:hint="@string/pass"
+                android:textSize="35sp"
+                android:textAlignment="center"
+                android:layout_marginTop="30sp"
+                android:inputType="textPassword"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/log"
+                android:textSize="30sp"
+                android:layout_marginTop="30sp"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

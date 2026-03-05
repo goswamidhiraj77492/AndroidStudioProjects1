@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    android:layout_margin="20dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtwt"
+        android:autofillHints="Enter your Weight"
+        android:hint="@string/edtwt"
+        android:inputType="number"
+        android:textSize="25sp"
+        android:paddingTop="25sp"
+        >
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtHFT"
+        android:hint="@string/edtHFt"
+        android:autofillHints="Enter your height in feet"
+          android:inputType="number"
+        android:textSize="25sp"
+        android:paddingTop="25sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtHIn"
+        android:autofillHints="Enter your height in Inch"
+        android:inputType="number"
+        android:hint="@string/edtHIn"
+        android:textSize="25sp"
+        android:paddingTop="25sp"
+        >
+
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/btncal"
+        android:text="@string/btnt">
+
+
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/txtv"
+        android:paddingTop="20dp">
+
+    </TextView>
+
+
+
+
+</LinearLayout>

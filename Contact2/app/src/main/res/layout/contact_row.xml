@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+     <androidx.cardview.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             >
+
+             <ImageView
+                 android:layout_width="70dp"
+                 android:layout_height="70dp"
+                 android:id="@+id/imgContact"
+                 android:src="@drawable/img"
+                 android:contentDescription="@string/CD"/>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:padding="5dp"
+                 android:orientation="vertical">
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/CContact"
+                     android:textSize="24sp"
+                     android:textStyle="bold"
+                     android:id="@+id/contactName">
+
+                 </TextView>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/CNumber"
+                     android:textSize="20sp"
+                     android:id="@+id/contactNumber">
+
+                 </TextView>
+
+
+
+             </LinearLayout>
+         </LinearLayout>
+     </androidx.cardview.widget.CardView>
+
+</LinearLayout>

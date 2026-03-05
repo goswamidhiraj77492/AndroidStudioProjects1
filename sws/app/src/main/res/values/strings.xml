@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">intentScreen</string>
+    <string name="next">Next</string>
+    <string name="sec">welcome to second screen</string>
+</resources>
