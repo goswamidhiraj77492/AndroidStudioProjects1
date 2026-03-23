@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#F5F7FA"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PDF Compressor"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textColor="#333"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No file selected"
+        android:textSize="14sp"
+        android:textColor="#555"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/fileName"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Size"
+        android:textSize="14sp"
+        android:textColor="#777"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/filesize"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/selectpdf"
+        android:text="Select PDF"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFF"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/compresspdf"
+        android:text="Compress PDF"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFF"
+        android:layout_marginBottom="20dp"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="14sp"
+        android:textColor="#4CAF50"
+        android:layout_marginTop="20dp"
+        android:id="@+id/resultSize"/>
+
+</LinearLayout>
